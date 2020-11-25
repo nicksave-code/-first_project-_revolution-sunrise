@@ -1,0 +1,4 @@
+var1 = "Hola"
+var2 = " "
+var3 = "Nick Save Mind"
+puts var1.to_s + var2.to_s + var3
