@@ -11,8 +11,8 @@ x = input()
 z = int(x)**2
 y = 2-2*int(x)
 if z < y:
-  print("red")
+  print("Red")
 
 else:
-  print("Green")
+  print("Blue")
   print(y)
