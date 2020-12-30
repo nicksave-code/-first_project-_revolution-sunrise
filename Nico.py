@@ -21,3 +21,19 @@ y = input()
 MouX = str(int(x))
 MouY = str(int(y))
 print(str(int(MouX)/int(MouY)))
+print("6.5 = ")
+print("a) 20")
+print("b) 30")
+Cow = "b"
+Dos = input()
+if Cow == Dos:
+    print("¡Muy bien!")
+else:
+        print("Lo siento")
+
+print('¿Cuál es la base?')
+Base = input()
+print("¿Cuál es el exponente")
+Exp = input()
+print("Beep boop")
+print(str(Base) + " ^ " + str(Exp) + " es igual a: " + str(int(Base)**int(Exp)))   
