@@ -7,12 +7,11 @@ log = input()
 Oh = "No"
 Yes = "Sí"
 while Yes != log:
-    print("De nuevo")
-    log = input()
-    if Yes == log: 
-      print( "Su nombre tiene " + str(Good) + " letras.")    
-    if Oh == log:
-      print("Como usted mande")
+  print("De nuevo")
+if Yes == log: 
+  print( "Su nombre tiene " + str(Good) + " letras.")    
+elif Oh == log:
+    print("Como usted mande")
 #Congratulations
 #Después
 print("Escriba x")
