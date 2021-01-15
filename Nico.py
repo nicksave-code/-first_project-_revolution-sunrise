@@ -1,23 +1,21 @@
-print('Escriba su nombre')
-how = input()
-Good = len(how)
-print("¿Desea saber cuántas letras tiene su nombre?")
-log = input()
-#Espacio
-Oh = "No"
-Yes = "Sí"
-while Yes != log:
-  print("De nuevo")
-if Yes == log: 
-  print( "Su nombre tiene " + str(Good) + " letras.")    
-elif Oh == log:
-    print("Como usted mande")
-#Congratulations
-#Después
-print("Escriba x")
-x = input()
-print("Escriba y")
-y = input()
-MouX = str(int(x))
-MouY = str(int(y))
-print(str(int(MouX)/int(MouY)))
+print("Primer número")
+Number1 = int(input())
+print("Segundo número")
+Number2 = int(input())
+while Number1 != "Salir":
+  if Number1 < Number2:
+    print(str(Number1) + " es menor que " + str(Number2))
+    print("....")
+    if Number1 == 0:
+      print("0 " + "es menor que " + Number2)
+    
+  elif Number1 > Number2:
+    print(str(Number1) + " es mayor que " + str(Number2))
+    print("....")
+  else:
+   print("Vuelva a escribir")
+  print("Primer número")
+  Number1 = int(input())
+  print("Segundo número")
+  Number2 = int(input())
+  

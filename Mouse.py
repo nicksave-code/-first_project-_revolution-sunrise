@@ -7,8 +7,7 @@ print ('Hello, ' + name)
 while password != "laniñajuju":
     print("Contraseña denied")
     password = input()
-if password == '01/01/2003':
-    print("Welcome to your account")
+print("Access granted")
 print("¿Cuál es tu nombre?")
 how = input()
 print("Un gusto " + how)
@@ -38,13 +37,14 @@ MouY = str(int(y))
 print(str(int(MouX)/int(MouY)))
 #After
 Math = 0
-print("En una operación (1.2) + (2.3) + (3.4) + ...... + (x.(x+1)), ¿A qué número desea sustituir la variable x?")
+print("En una operación (1.2) + (2.3) + (3.4) + ...... + (x.(x+1)), ¿A qué número desea sustituir la  x?")
 Number = int(input())
-while Number != Math: #2020 
+while Number != Math: #2020 variable
    Math = int(Math)+1
    Two = int(Math)
    Three = int(Math)+1
    Buu = Two * Three
+   #Un poco más...
    print( "(" + str(Two) + " x " + str(Three) + ")" + " = " + str(Buu))
    if Two == Number: #2020
       break

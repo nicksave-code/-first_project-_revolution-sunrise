@@ -1,23 +1,25 @@
-from typing import NoReturn
-
-
-print(" ¿Qué decías?")
-Nube = input()
-print('¿' + Nube + '?')
-
-def nico(index ="Nico"):
-    print(index + " " + "te quiero")
-nico(input())
-# aparte(function)
-No = input("Y dime, ¿Cuánto es 10 al cuadrado?")
-a = str(int(10)**int(2))
-b = No
-while a != b:
-     print("Oh no; ¡Vamos! una vez más")
-     a = 100
-     b = int(input())
-     #Congratulations!
-if a == b:
-      print("¡Very Good!")
-    
-
+#Siguiente
+print("En una operación (1.2) + (2.3) + (3.4) + ...... + (x.(x+1)), ¿A qué número desea sustituir la  x?")
+Number = int(input())
+Math = 0
+New = (-1)
+while Number != Math: #2020 variable
+     New = int(New) + 1
+     Ant_two = int(New)
+     Ant_three = int(New)+1
+     Second = Ant_two * Ant_three
+     Math = int(Math)+1
+     Two = int(Math)
+     Three = int(Math)+1
+     Buu = Two * Three
+     Low = Second + Buu
+     if Second :
+          Low = Low + Low
+          print(Low)
+     print( "(" + str(Two) + " x " + str(Three) + ")" + " = " + str(Buu))
+     if Number == Math:
+          print(Low)
+#Aun falta, ¡oh Dios mío...!
+     #Un poco más...
+#One second
+#Continue
