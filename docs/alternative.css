@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-html {background-color: rgb(216, 38, 38);}
+html {background-color: rgb(255, 255, 255);}
 h2 {font-family: 'QuickSand', sans-serif; font-size: 34px; color: rgb(0, 0, 0); background-color: rgb(195, 209, 218);}
 .Docker ,a{font-family: "Quicksand"; color: rgb(0, 0, 0); font-size: 30px; text-decoration: none;}
 .First{background-image:url("https://raw.githubusercontent.com/nicksave-code/first_project-_revolution-sunrise/first_project-_revolution-sunrise/Fotos/Nick.jpeg"); width: 200px; height: 60px; color: white; font-family: "Happy Monkey"; font-size: 45px; border-radius: 12px; border: 2px solid rgb(8, 189, 150);}        
