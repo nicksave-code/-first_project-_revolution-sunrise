@@ -1,4 +1,18 @@
-print("Welcome to NiCo Sunrise")
+
+print("¿Cuál es tu nombre?")
+how = input()
+print("Un gusto " + how)
+Good = len(how)
+print("¿Desea saber cuántas letras tiene su nombre?")
+log = input()
+#Espacio
+Oh = "No"
+Yes = "Sí"
+while Yes != log:
+  print("De nuevo")
+  log = input()
+  #Bucle infinito error(Yes!)
+if Yes == log: print("Welcome to NiCo Sunrise")
 print("Username")
 name = input()
 print ("Enter your password")
@@ -39,7 +53,7 @@ print(str(int(MouX)/int(MouY)))
 Math = 0
 print("En una operación (1.2) + (2.3) + (3.4) + ...... + (x.(x+1)), ¿A qué número desea sustituir la  x?")
 Number = int(input())
-while Number != Math: #2020 variable
+for Two in range(Number): #2020 variable
    Math = int(Math)+1
    Two = int(Math)
    Three = int(Math)+1

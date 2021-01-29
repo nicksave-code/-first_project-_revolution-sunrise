@@ -1,3 +1,14 @@
+<python>
+print("Cuéntame")
+Invite = input()
+#Juntar con Java Script y Node.js.. ¡Será maravilloso!
+while not Invite:
+   print("Oye, no me dijiste nada; vamos, de nuevo...")
+   Invite = input()
+if Invite:
+    print("Interesante")
+    print("¿Estás listo amigo?")  
+</python>
 <script>
 Al parecer, no esta permitido usar "text.content" en <button>.
 <pre>

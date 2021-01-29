@@ -7,16 +7,38 @@
 # Doc = Doc + 1
 # Inicio = Inicio + Doc
 #print(Inicio) 
-print("Ingresa M:")
-Let_st = int(input())
-print("Ingresa N:")
-Let_nd = int(input())
-while Let_st < 100:
- if Let_st > 3 and Let_st < 6:    
-  Let_st = int(Let_st)+1
- if Let_st >= 0 and Let_st < 6: 
-     if Let_nd > -2 and Let_nd < 1:
-        Let_nd = Let_nd+1
-        print("( " + str(Let_st) + " ; " + str(Let_nd) + " )") 
- else:
-    break
+#print("Ingresa M:")
+#One = int(input())
+#print("Ingresa N:")
+#Two = int(input())
+#while One < 100:
+ #if One > 3 and One < 6:    
+  #if One >= 0 and One < 6: 
+ #if Two > -2 and Two < 1:
+   # Two = Two+1
+   # print("( " + str(Two) + " ; " + str(One) + " )") 
+ #else:
+   # break
+
+#Suma de impares consecutivos...
+import random
+
+
+#One = 0
+#while True:
+# if One == 20:
+#  break
+# print(One)
+# One = One + 1
+#for Num in[2, 3, 6]:
+# Num = 0
+Var = random.randint(1, 5)
+Guess = Var
+print(Guess)
+Doc = input()
+while Doc != Var:
+  print("Sorry!")
+  print("Is " + str(Guess))
+  Doc = input()
+print("Very good!")
+#Mind error!!
