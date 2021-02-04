@@ -61,6 +61,14 @@ h2 {
     border: none;
 }
 
+.sec_h1 {
+    font-size: 68px;
+}
+
+.th_p {
+    font-size: 34px !important;
+}
+
 #here_mind {
     font-size: 24px; 
     font-family: "Quicksand"; 
