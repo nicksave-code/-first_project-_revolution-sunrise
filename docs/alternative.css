@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 html {
     background-color: #ffffff;
 }
@@ -44,6 +44,13 @@ h2 {
     font-size: 24px; 
     border:0px; 
     background-color: #d1d4d6;
+}
+
+.mail {
+    font-family: "Poiret One", cursive;
+    font-size: 29px;
+    text-decoration: none;
+    color: rgb(0, 0, 0) !important;
 }
 
 #here_mind {
