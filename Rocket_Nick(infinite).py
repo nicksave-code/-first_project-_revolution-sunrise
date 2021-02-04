@@ -42,3 +42,12 @@ while Doc != Var:
   Doc = input()
 print("Very good!")
 #Mind error!!
+"""
+ #abs in a nutshell
+ x = int(input())
+ if x < 0:
+  x = (-1)(int(x)) 
+ if x > 0:
+  x = (int(x))
+ print(x)
+"""

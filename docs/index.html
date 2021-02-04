@@ -6,6 +6,8 @@
       <title>
          Nick Code 
       </title>
+      <script src="Up_code.js">
+      </script>
    </head>
    <body>
       <h1 id="welcome">
@@ -17,7 +19,8 @@
          <p>La idea</p>
          </a>
         </div>
-        <form action="Nick.txt"><input class="here_mind" placeholder="Cuéntame" required>&nbsp; &nbsp;<button class="Hand">¡Vamos!</button></form><br>
+        <input id="here_mind" placeholder="Cuéntame" oninput="doc()"/>&nbsp; &nbsp;<button class="Hand">¡Vamos!</button><br>
+        <p id="newHelp">0 C° is equal to 32F°</p>
         <button id="welcome" type="button" onclick='document.getElementById("name").innerHTML = "DocFuture - Sólo dame 2 semanas"'>¡DocFuture!</button>
       </body>
    <!--Normas de CSS aun para entender-->
