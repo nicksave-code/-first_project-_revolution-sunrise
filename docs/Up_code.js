@@ -6,3 +6,4 @@ function doc(){
     }
     document.getElementById("newHelp").innerHTML= `${d} C° is equal to ${(9 / 5) * d + 32} F°`;
    }
+   
