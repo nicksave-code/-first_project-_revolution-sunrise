@@ -1,9 +1,13 @@
 /*alert("Good")*/
-function doc(){
-    var d = document.getElementById("here_mind").value;
-    if (d.length == 0) {
-      d = 0;
+function question(){
+    var d = document.getElementById("answer_one").value;
+    if (d ==3)  {
+      document.getElementById("meta_answer").innerHTML="Oh, habeís iniciado bien";
     }
-    document.getElementById("newHelp").innerHTML= `${d} C° is equal to ${(9 / 5) * d + 32} F°`;
+    else if (d < 1000000 || d > 1000000){
+      document.getElementById("meta_answer").innerHTML="Te equivocaste, ¡genial!";
+    }
+    if (d == false){
+      document.getElementById("meta_answer").innerHTML=" ";
+    }
    }
-   

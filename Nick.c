@@ -5,7 +5,7 @@
 /* la función main inicia la ejecución del programa */
 int main( void )
 {
-    printf( "Hello world in C\n" );
+    printf( "Hello Nick in C\n" );
     
     return 0; /* indica que el programa terminó con éxito */
     

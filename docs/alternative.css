@@ -3,80 +3,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-html {
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+:root {
+    --word-color: rgb(0, 0, 0);
+    --word-color-in-hover: rgb(255, 255, 255);
+} 
+body {
     background-color: #ffffff;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;  
+    color: var(--word-color);
+    transition: font-size .3s;
+}
+h1:hover {
+    font-size: 40px;
+    transition: font-size .4s;
 }
 
 h2 {
-    font-family: 'QuickSand', sans-serif; 
-    font-size: 34px; 
-    color: #000000; 
-    background-color: #c3d1da;
+    color: var(--word-color);
+    font-family: "Poiret One";
+    transition: font-size .2s;
 }
-
-.Docker, a{
-    font-family: "Quicksand"; 
-    color: #000000; font-size: 30px; 
-    text-decoration: none;
+h2:hover {
+    font-size: 28px;
+    transition: font-size .4s;
 }
-
-.First{
-    background-image: url("https://raw.githubusercontent.com/nicksave-code/first_project-_revolution-sunrise/first_project-_revolution-sunrise/Fotos/Nick.jpeg"); 
-    width: 200px; 
-    height: 60px; 
-    color: white; 
-    font-family: "Happy Monkey"; 
-    font-size: 45px; 
-    border-radius: 12px; 
-    border: 2px solid #08bd96;
-} 
-
-.One_Title{
-    font-size: 28px
+.sub_log {
+    font-size: 18px;
 }
-
-.title {
-    font-size: 24px;
+p {
+    color: var(--word-color-in-hover);
+    font-family: "Quicksand";
+    font-size: 18px;
 }
-
-.Hand {
-    font-family: "Quicksand"; 
-    font-size: 24px; 
-    border:0px; 
-    background-color: #d1d4d6;
-}
-
-.mail {
-    font-family: "Poiret One", cursive;
-    font-size: 29px;
-    text-decoration: none;
-    color: rgb(0, 0, 0) !important;
-}
-
-.one_button {
-    font-family: "Manjari", sans-serif;
-    color: #000000;
-    background-color: #ffff00;
-    font-size: 24px;
-    border: none;
-}
-
-.sec_h1 {
-    font-size: 68px;
-}
-
-.th_p {
-    font-size: 34px !important;
-}
-
-#here_mind {
-    font-size: 24px; 
-    font-family: "Quicksand"; 
-}
-
-#newHelp {
-    font-family: "Quicksand"; 
-    font-size: 26px;
-}
-/*# sourceMappingURL=alternative.css.map */
-

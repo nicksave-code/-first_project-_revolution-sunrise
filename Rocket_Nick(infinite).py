@@ -22,8 +22,6 @@
 
 #Suma de impares consecutivos...
 import random
-
-
 #One = 0
 #while True:
 # if One == 20:
