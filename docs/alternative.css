@@ -39,7 +39,7 @@ h2:hover {
     font-size: 18px;
 }
 p {
-    color: var(--word-color-in-hover);
+    color: var(--word-color);
     font-family: "Quicksand";
     font-size: 18px;
 }
