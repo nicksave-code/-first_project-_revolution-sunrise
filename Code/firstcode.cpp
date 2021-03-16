@@ -34,7 +34,7 @@ int main()
     Box1.Birthday = "july 24";*/
     Box1.Inf();
 
-    Box Box2 = Box("Sand", "Your Sunrise is pretty", 0x12, "february 20", "\n");
+    Box Box2 = Box("Dany", "Your Age", 0xff, "august 24", "\n");
     /*Box2.Name = "Sand";
     Box2.Company = "Your Sunrise is pretty";
     Box2.Age = 0x12;

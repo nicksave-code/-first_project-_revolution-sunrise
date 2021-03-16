@@ -1,45 +1,37 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
-:root {
-    --word-color: rgb(0, 0, 0);
-    --word-color-in-hover: rgb(255, 255, 255);
-} 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 body {
-    background-color: #ffffff;
+    background: linear-gradient(to right, blue, cyan);
 }
-h1 {
-    font-family: 'Raleway', sans-serif;  
-    color: var(--word-color);
-    transition: font-size .3s;
-}
-h1:hover {
-    font-size: 40px;
-    transition: font-size .4s;
-}
-
-h2 {
-    color: var(--word-color);
-    font-family: "Poiret One";
-    transition: font-size .2s;
-}
-h2:hover {
-    font-size: 28px;
-    transition: font-size .4s;
-}
-.sub_log {
-    font-size: 18px;
-}
-p {
-    color: var(--word-color);
+#title_cat {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 75px;
     font-family: "Quicksand";
-    font-size: 18px;
+}
+.p_box__one {
+    color: white;
+    width: 200px;
+    font-size: 28px;
+    text-align: end;
+    font-family: "Quicksand";
+    position: relative;
+    top: 24px; 
+    transition: top .4s;
+}
+#p_one {
+    text-align: center;
+    font-size: 38px;
+    font-family: "Quicksand";
+}
+.p_box__secret {
+    position: relative;
+    bottom: 60px;
+    font-size: 40px;
+}
+.p_box__secret:hover {
+    position: relative;
+    left: 200px;
+    font-family: "Bad Script";
 }

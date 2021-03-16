@@ -26,8 +26,8 @@ while myGame != "Fin":
      equal = int(equal) + 1
     if myGame == "Papel" and a == 1:
      print(b + " vs " + myGame)
-     print("Tú perdiste")
-     loser = int(loser) + 1
+     print("Tú ganaste")
+     win = int(win) + 1
     if myGame == "Papel" and a == 2:
      print(b + " vs " + myGame)
      print("Uf, hoja con hoja, es una igualdad.")
@@ -42,8 +42,8 @@ while myGame != "Fin":
      equal = int(equal) + 1
     if myGame == "Piedra" and a == 2:
      print(b + " vs " + myGame)
-     print("Pobre hoja, adiós; tú ganas.")
-     win = int(win) + 1
+     print("Hoja tapa a papel, pierdes.")
+     loser = int(loser) + 1
     if myGame == "Piedra" and a == 3:
      print(b + " vs " + myGame)
      print("¿Y ahora?, ¿Qué sucederá con el papel?")
