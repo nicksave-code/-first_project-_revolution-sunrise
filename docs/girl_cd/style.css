@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html {
+	background-color: black;
+	color: white;
+}
+h1 {
+	font-family: fantasy;
+}
+pre {
+	font-family: "Quicksand";
+	font-size: 22px;
+}
+.phrase {
+	font-size: 17px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	transition: background-color .4s, margin-right .4s, margin-left .4s;
+}
+.phrase:hover {
+	background-color: rgb(255, 255, 255);
+	color: black;
+	text-align: center;
+	margin-right: 10cm;
+	margin-left: 10cm;
+	transition: background-color .4s, margin-right .4s, margin-left .4s;
+}
+body {
+	scrollbar-color: black;
+	
+}

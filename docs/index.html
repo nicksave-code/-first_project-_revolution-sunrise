@@ -3,23 +3,114 @@
    <head>
       <meta charset="utf-8" />
       <meta name="robots" content="index" />
-      <meta name="keywords" content="first project revolution sunrise, educacion, love, programación">
+      <meta name="keywords" content="first project revolution sunrise, educacion, love, programming">
       <link rel="icon" type="image/png" href="" sizes="">
       <link rel="stylesheet" href="alternative.css">
       <link rel="stylesheet" href="normalize.css">
       <title>
-
+         Fly
       </title>
-      <script src="Up_code.js">
-      </script>
    </head>
    <body>
-      <div id="title_cat">Title</div>
+      <header>
+         <h1 id="title_cat">Title</h1>
+      </header>
       <div class="p_box__one">
          <p id="p_one">Math</p>
          <p>¿Deseas<br> conocer tu <br>lado oscuro?</p>
       </div>
       <div class="p_box__secret"></div>
+      <h2>
+         Estamos dando los  últimos toques mágicos; <br>¿cómo te llamas?
+      </h2>
+      <input id="input_math" oninput="name_answer()"/>
+      <div id="box_answer_name"></div>
+      <br><h2>
+         Un pequeño juego de "palabras"
+      </h2>
+      <br>
+      <pre>
+   Nota a = años
+   0 a = recién nacido (un bebé 🤗)
+   
+   Por supuesto, no hay una fecha indicada para los dos, así que  los imaginaremos en el año 2000.
+   Esos tiempos donde todo era amor.
+   Sus edades eran:
+
+                        Año 2000
+                 Ángel            Beto 
+                  0 a              8 a
+   
+   Y por supuesto, más tarde nace Carlos (o así nos trata de decir el juego).
+   Para ese momento Ángel ya tenía 10 años, algo así:
+   <span id="age_2010">
+                 Carlos           Ángel
+                   0 a             10 a</span>
+
+   Ahora puedes deducir que ese ya era el año 2010 (pues Ángel ya tenía 10 años).
+   Y ahora, ¿en qué momento sus edades sumarán 73?, y además, ¿quién será el mayor?. 
+   
+   Dulce: "Ash, eso lo saben ellos, ¿por qué no nos lo dicen?, ¡qué lío!, ahora sí me caen pésimo"
+   ¿Lo ves?, Dulce está preocupada, pero nosotros no, veamos por qué.
+
+   Primero hay que descubrir las edades en simultáneo de cada uno, así no nos perderemos
+   de vista al mayor (pues ya saben lo que dicen: "Nunca serás más alta que tu madre",
+   no os referimos a altura, sino a nuestra edad).
+
+   En el año 2010 Ángel y Carlos presentaban las siguientes <a onclick="age_color()" href="#age_2010">edades</a>
+   Ahora, Beto tiene que estar a la altura de Ángel, por lo tanto su edad será (y también agregaremos a Carlos):
+
+                                           Año 2010
+                     Ángel                   Beto                Carlos
+                  0 a + 10 a              8 a + 10 a              0 a
+                     10 a                    18 a
+   
+   <span id="mayor_edad">Ahora sí podemos notar al mayor... ¡Lo tienes, es Beto!</span> (aunque suene extraño, 
+   hemos respondido la segunda pregunta antes de la primera, ¡eso es normal aquí!).
+   Sigamos con este juego de "palabras"
+
+   Se dio cuenta que cada año que pasa tanto tú como yo prendemos una velita más en
+   los cumpleaños, pues igual pasa con cada persona del mundo, todos prendemos velitas cada año.
+
+   En ese caso, si en el año 2010 Ángel tenía 10 años, Beto 18, y Carlos 0, con la suma de:
+   10 + 18 + 0 = 28, después, en el año 2014 tendrán cuatro años más, eso sí, cada uno de ellos.
+   Así:
+                                           Año 2014
+                     Ángel                   Beto                Carlos
+                  10 a + 4 a             18 a + 4 a            0 a + 4 a
+                     14 a                    22 a                 4 a
+
+   Y para darle magia, sus edades sumarán: 14 + 22 + 4 = 40.
+   Y así cada año, lo único que sucede es que las edades (de cada uno) se suman según el número de años.
+   ¿Y en qué momento tendrán como suma 73?
+
+   Si nos dimos cuenta, las edades de cada uno se sumaba por año, entonces porqué no poner una suma "x",
+   como esto:
+
+                                          Año 2014 + x
+                     Ángel                   Beto                Carlos
+                10 años + x años        18 años + x años     0 años + x años
+                    10 + x                   18 + x                 x   
+
+   En ese caso solo haríamos esto: (10 + x) + (18 + x) + (x) = 73,
+   y resolvemos la ecuación:
+
+   10 + x + 18 + x + x = 73
+   28 + 3x = 73
+   3x = 73 - 28
+   3x = 45
+   x = 15
+
+   Por lo tanto ahora será:
+
+                                          Año 2014 + <strong>15</strong> = 2029
+                     Ángel                   Beto              Carlos
+                10 años + <strong>15</strong> años       18 años + <strong>15</strong> a      0 años + <strong>15</strong>
+                     25 a                    33 a               15 a
+
+   Y cómo siempre ya conocemos al <a href="#mayor_edad" onclick="mayor_color()">mayor</a>.
+      </pre>
+      <script type="text/javascript" src="Up_code.js"></script>
    </body>
    <!--Normas de CSS aun para entender-->
 </html>

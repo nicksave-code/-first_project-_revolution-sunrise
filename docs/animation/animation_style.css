@@ -1,0 +1,28 @@
+:root {
+        --color-first_and-final: aqua;
+}
+#hand {
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        padding: 50px;
+        margin: 100px;
+        transition: transform .4s, background-color .4s;
+        animation-name: square_ball;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+@keyframes square_ball {
+        0% {
+                background-color: var(--color-first_and-final);
+                transform: rotate(360deg);
+        }
+        50% {
+                background-color: yellow;
+        }
+        100% {
+                background-color: var(--color-first_and-final);
+        }
+}

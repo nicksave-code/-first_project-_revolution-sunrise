@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+html {
+    scrollbar-color: rgb(63, 63, 63) black;
+}
 body {
+
     background: linear-gradient(to right, blue, cyan);
+    background: black;
 }
 #title_cat {
     text-align: center;
-    font-family: sans-serif;
     color: white;
     font-size: 75px;
     font-family: "Quicksand";
+    font-weight: 100;
 }
 .p_box__one {
     color: white;
@@ -25,6 +31,9 @@ body {
     font-size: 38px;
     font-family: "Quicksand";
 }
+.p_box__one:hover {
+    text-decoration: underline;
+}
 .p_box__secret {
     position: relative;
     bottom: 60px;
@@ -34,4 +43,48 @@ body {
     position: relative;
     left: 200px;
     font-family: "Bad Script";
+}
+h2 {
+    position: relative;
+    top: 20px;
+    font-family: "Quicksand";
+    color: white;
+    font-weight: lighter;
+    left: 10px;
+    line-height: 2;
+}
+#input_math {
+    background: rgb(255, 255, 255);
+    border-color: transparent;
+    position: relative;
+    left: 18%;
+    bottom: 32px;
+    color: rgb(0, 0, 0);
+    font-size: 39px;
+    transition: font-size .4s;
+    font-family: "Zilla Slab Highlight";
+}
+#input_math:hover {
+    font-size: 42px;
+    transition: font-size .4s, background-color .4s;
+}
+#box_answer_name {
+    font-family: "Zilla Slab Highlight";
+    color: rgb(0, 0, 0);
+    font-size: 49px;
+}
+audio {
+    background: linear-gradient(to left, red, blue);
+}
+pre {
+    font-family: "Quicksand" !important;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 204, 255)
+}
+a:hover {
+    text-decoration: underline;
+    transition: text-decoration .4s;
 }
