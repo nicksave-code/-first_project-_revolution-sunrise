@@ -1,0 +1,13 @@
+.box_1 {
+    background-color: cyan;
+    width: 300px;
+    height: 140px;
+}
+.box_2 {
+    background-color: rgb(17, 0, 255);
+    width: 200px;
+    height: 105px;
+    margin: 40px;
+    top: 20px;
+    position: relative;
+}
